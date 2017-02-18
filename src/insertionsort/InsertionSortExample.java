@@ -17,9 +17,9 @@ public class InsertionSortExample {
     
     
     public static void main(String[] args) {
-        List<Integer> unsorted = getIntegerList(100000);
+        List<Integer> unsorted = getIntegerList(1000);
         
-        System.out.println("It took: " + insertionSort(unsorted) + " milliseconds to sort");
+        System.out.println("It took: " + insertionSort(unsorted) + " milliseconds to sort: " + unsorted);
     }
     
     /**
@@ -28,8 +28,8 @@ public class InsertionSortExample {
      * Kan kun bruges til små dataset
      * 
      * Kørertider: 
-     * Worstcase :  O(n^2)
-     * bestcase :  Omega(n) 
+     * Worstcase :  O(n^2), hvis nu inputet var sorteret falende
+     * bestcase :  Omega(n), hvis nu inputtet var sorteret ikke-faldende
      * 
      * Algoritmen er "inblace", da den ikke optager mere hukommelse til at sortere. 
      * 
