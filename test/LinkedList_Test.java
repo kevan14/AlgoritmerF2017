@@ -13,8 +13,9 @@ import java.util.logging.Logger;
  *
  * @author Kennet_Skole
  */
-public class Tester {
+public class LinkedList_Test {
 
+    
     public static void main(String[] args) {
 
         LinkedList myList = new LinkedList();
@@ -27,33 +28,33 @@ public class Tester {
         try {
             System.out.println(myList.remove(2));
         } catch (Exception ex) {
-            Logger.getLogger(Tester.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LinkedList_Test.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         try {
             System.out.println(myList.get(0));
         } catch (Exception ex) {
-            Logger.getLogger(Tester.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LinkedList_Test.class.getName()).log(Level.SEVERE, null, ex);
         }
         try {
             System.out.println(myList.get(1));
         } catch (Exception ex) {
-            Logger.getLogger(Tester.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LinkedList_Test.class.getName()).log(Level.SEVERE, null, ex);
         }
         try {
             System.out.println(myList.get(2));
         } catch (Exception ex) {
-            Logger.getLogger(Tester.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LinkedList_Test.class.getName()).log(Level.SEVERE, null, ex);
         }
         try {
             System.out.println(myList.get(3));
         } catch (Exception ex) {
-            Logger.getLogger(Tester.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LinkedList_Test.class.getName()).log(Level.SEVERE, null, ex);
         }
         try {
             System.out.println(myList.get(4));
         } catch (Exception ex) {
-            Logger.getLogger(Tester.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LinkedList_Test.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }
